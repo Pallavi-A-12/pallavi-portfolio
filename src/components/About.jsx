@@ -9,7 +9,7 @@ function About() {
                 <div className="max-w-4xl mx-auto text-center">
                     <p className="text-lg text-gray-300 leading-relaxed">
                         I am an MCA graduate and aspiring Java Full Stack Developer.
-                        I enjoy building web application using Java, Spring BOOt,
+                        I enjoy building web application using Java, Spring Boot,
                         React, MySQL, HTML, CSS, and Javascript.
                         My goal is to become a skilled software engineer by creating
                         real-world projects and continuously improving my problem-solving

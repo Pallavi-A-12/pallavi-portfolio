@@ -4,16 +4,23 @@ function Projects() {
         {
             title:"Student Management System",
             description:
-            "This is a student management system project that allows users to manage student records, including adding, updating, and deleting student information.",
+            "Developed a student management system project that allows users to manage student records, including adding, updating, and deleting student information.",
             tech:"Java, Spring Boot, Spring data JPA, Html, Bootstrap 4, Maven, MySQL, Thymeleaf",
             github:"https://github.com/Pallavi-A-12/Student-Management-System"
         },
         {
             title: "Audit-Free Cloud Storage",
             description:
-            "Secure cloud storage system using CP-ABE encryption concepts for privacy and access control.",
-            tech:"Java, Html, MySQL",
+            "Built a Secure cloud storage system using CP-ABE encryption concepts for privacy and access control.",
+            tech:"Java, Swing, MySQL, JDBC, Cloud Storage",
             github:"https://github.com/Pallavi-A-12/AuditFreeCloudStorage"
+        },
+        {
+            title: "Weather App",
+            description:
+            "Built a responsive weather forecasting application using React and the Open-Meteo API. Implemented real-time weather updates, location search, hourly and weekly forecasts, unit conversion.",
+            tech:"React.js, JavaScript (ES6+), Open-Meteo API, Tailwind CSS, Vite, Responsive Design",
+            github:"https://github.com/Pallavi-A-12/weather-app"
         },
     ];
     return (
