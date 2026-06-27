@@ -1,3 +1,6 @@
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+
+
 function Hero() {
     return (
         <section id="home"
@@ -13,18 +16,46 @@ function Hero() {
                     MCA Graduate passionate about java,
                     Spring Boot, React, MySQL and Building real-world web applications.
                 </p>
-                <ul className="flex justify-center gap-4">
-                    <li>
-                        <button className="mt-8 px-6 py-3 bg-cyan-500 rounded-lg hover:bg-cyan-600">
-                            View Projects
-                        </button>
-                    </li>
-                    <li>
-                        <button className="mt-8 px-6 py-3 bg-cyan-500 rounded-lg hover:bg-cyan-600">
-                            Contact me
-                        </button>
-                    </li>
-                </ul>
+
+                <br></br>
+
+                <div className="flex justify-center gap-6 mb-8">
+                    <a href="https://github.com/Pallavi-A-12">
+                        <FaGithub size={32}/>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/pallaviande">
+                        <FaLinkedin size={32}/>
+                    </a>
+                    {/*
+                    <a
+                      href="/Pallavi_Ande_Resume.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-6 py-3 border border-cyan-500 rounded-lg"
+                    >
+                      View Resume
+                    </a> */}
+
+                    <a
+                      href="/Pallavi_Ande_Resume.pdf"
+                      download="Pallavi_Ande_Resume.pdf"
+                      className="
+                        inline-flex
+                        items-center
+                        gap-2
+                        px-6
+                        py-3
+                        bg-cyan-500
+                        hover:bg-cyan-600
+                        rounded-lg
+                        font-semibold
+                        transition-all
+                        duration-300">
+                      Download Resume
+                    </a>
+                </div>
+
             </div> 
         </section>
     );
