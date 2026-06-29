@@ -22,6 +22,13 @@ function Projects() {
             tech:"React.js, JavaScript (ES6+), Open-Meteo API, Tailwind CSS, Vite, Responsive Design",
             github:"https://github.com/Pallavi-A-12/weather-app"
         },
+        {
+            title: "Personal Portfolio",
+            description:
+            "Developed a modern responsive portfolio website featuring React, Tailwind CSS, project showcase, skills section, and contact form.",
+            tech:"React, Tailwind CSS, Vite, EmailJS, JavaScript",
+            github:"https://github.com/Pallavi-A-12/pallavi-portfolio"
+        }
     ];
     return (
         <section id="projects"
