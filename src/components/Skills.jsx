@@ -17,6 +17,7 @@ function Skills() {
         { name: "Git", icon: "git" },
         { name: "GitHUb", icon: "github" },
         { name: "REST API", icon: "fastapi" },
+        { name: "AWS Services", icon: "aws" },
     ];
     return (
         <section id="Skills"
