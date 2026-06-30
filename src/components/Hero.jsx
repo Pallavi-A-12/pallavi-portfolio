@@ -8,7 +8,8 @@ function Hero() {
             <div className="max-w-7xl mx-auto px-6">
                 
                <div className="flex flex-col-reverse md:flex-row items-center justify-between gap-12">
-                
+
+                    {/* left hand column */}
                    <div className="md:w-1/2 text-center md:text-left">
                    
                         <p className="text-cyan-400 text-xl mb-4">
@@ -64,15 +65,16 @@ function Hero() {
                         </div>
                    </div> 
 
-                   <div className="md:w-1/2 flelx justify-center">
+                    {/*right hand column */}
 
-                        <img src={heroGirl}
-                            alt="Developer Girl"
-                            className="w-[450px] 
-                                rounded-full
-                                object-cover
-                                animate-float"/>
-                   </div>
+                    <div className="md:w-1/2 flelx justify-center">
+                         <img src={heroGirl}
+                             alt="Developer Girl"
+                             className="w-[450px] 
+                                 rounded-full
+                                 object-cover
+                                 animate-portfolio-float"/>
+                    </div>
                 </div> 
             </div>
         </section>    
