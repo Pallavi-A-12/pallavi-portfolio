@@ -2,6 +2,8 @@
 
 A personal portfolio website built using React, Javascript, Tailwind CSS, and Vite.
 
+![portfolio website](./src/assets/images/portfolio.png)
+
 ## About
 
 This portfolio showcases my skills, projects, and journey as an aspiring Java Full Stack Developer. It includes information about me, technical skills, projects, and contact details.
