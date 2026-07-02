@@ -1,7 +1,7 @@
 import cloudImg from "../assets/images/cloud_service.png";
 import weatherImg from "../assets/images/weather_app.jpg";
 import studentImg from "../assets/images/sms.png";
-import portfolioImg from "../assets/images/portfolio.png";
+import portfolioImg from "../assets/images/portfolio1.png";
 import { FaGithub } from "react-icons/fa";
 
 

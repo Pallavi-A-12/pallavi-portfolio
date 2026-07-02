@@ -1,8 +1,9 @@
 # Pallavi Portfolio
 
-A personal portfolio website built using React, Javascript, Tailwind CSS, and Vite.
+A modern personal portfolio website built using React, Javascript, Tailwind CSS, and Vite.
 
-![portfolio website](./src/assets/images/portfolio.png)
+![portfolio website](./src/assets/images/portfolio1.png)
+[View portfolio](https://pallavi-portfolio-jade.vercel.app)
 
 ## About
 
@@ -15,7 +16,7 @@ This portfolio showcases my skills, projects, and journey as an aspiring Java Fu
 * About Me Section
 * Skills Showcase
 * Project Gallery
-* Contact Section
+* Contact Section with EmailJs API
 * Modern UI with Tailwind CSS
 
 ## Tech Stack
