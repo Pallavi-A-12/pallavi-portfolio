@@ -64,7 +64,7 @@ function Contact() {
             
             <div className="max-w-4xl mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center mb-12">
-                    Contact Me
+                    Get In<span className="text-cyan-400"> Touch</span>
                 </h2>
                 <div className="fixed top-6 left-1/2 -translate-x-1/2 z-50 space-y-3">
                     {success && (

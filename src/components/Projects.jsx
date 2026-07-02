@@ -20,7 +20,7 @@ function Projects() {
             title: "Secure Cloud Storage Service",
             image: cloudImg,
             description:
-            "A secure cloud storage system with CP-ABE encryption for fine-grained access control.",
+            "A secure Java-based cloud storage system using Ciphertext-Policy Attribute Based Encryption (CP-ABE) for secure file sharing.",
             tech:["Java", "Swing", "MySQL", "JDBC", "Cloud"],
             github:"https://github.com/Pallavi-A-12/AuditFreeCloudStorage"
         },
@@ -48,7 +48,7 @@ function Projects() {
             <div className="max-w-6xl mx-auto px-6">
                  
                  <h2 className="text-4xl font-bold text-center mb-14">
-                    My Projects
+                    My <span className="text-cyan-400">Projects</span>
                  </h2>
 
                  <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">

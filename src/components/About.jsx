@@ -6,7 +6,7 @@ function About() {
             className="py-24 bg-slate-900 text-white">
             <div className="container mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center mb-12">
-                    About Me
+                    About <span className="text-cyan-400">Me</span>
                 </h2>
 
                 <div className="flex flex-col md:flex-row items-center gap-12">
@@ -30,8 +30,8 @@ function About() {
                     </div>
 
                     <div className="md:w-2/3">
-                        <h3 className="text-3xl font-bold mb-6">
-                          Hi, I'm Pallavi 👋
+                        <h3 className="text-2xl font-semibold mb-6">
+                          Who am I?
                         </h3>
                         <p className="text-gray-300 leading-8 text-lg">
                           I am an MCA graduate and aspiring Java Full Stack Developer with
