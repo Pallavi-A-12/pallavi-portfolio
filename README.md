@@ -25,6 +25,19 @@ This portfolio showcases my skills, projects, and journey as an aspiring Java Fu
 * Tailwind CSS
 * JavaScript
 * Vite
+* emailjs
+
+## Environment Variables
+
+Create a `.env` file in the project root and add:
+
+```env
+VITE_EMAILJS_SERVICE_ID=your_service_id
+VITE_EMAILJS_TEMPLATE_ID=your_template_id
+VITE_EMAILJS_PUBLIC_KEY=your_public_key
+```
+
+You can obtain these values from your EmailJS account.
 
 ## Installation
 
